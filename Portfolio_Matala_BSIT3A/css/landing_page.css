@@ -1,0 +1,31 @@
+body {
+  overflow-x: hidden;
+}
+
+.hero{
+
+  background-image: linear-gradient(rgba(12, 119, 21, 0.548), rgba(51, 134, 12, 0.514)), url("../images/hero.png");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.card{
+    background: linear-gradient(rgba(1, 27, 4, 0.774), rgba(0, 0, 0, 0.733));
+}
+.nav-item:hover .nav-link {
+    color: rgb(23, 151, 6) !important;
+  text-decoration: underline rgb(23, 151, 6) 10px !important;
+}
+.about .list-group-item {
+  background-color: #f0f8ff; 
+  border: none; 
+}.carousel-caption{
+    background-color: rgba(1, 1, 27, 0.452);
+    border-radius: 20px;
+}
+#label{
+    background-color: rgba(6, 17, 1, 0.623);
+    border-radius: 20px;
+}
